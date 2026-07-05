@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pakistan Key Surveys — District &amp; Division Dashboard</title>
+<style>
+  :root{
+    --blue:#1f4e79; --blue2:#2e6da4; --teal:#159588; --orange:#e67e22;
+    --bg:#f4f6f9; --card:#ffffff; --line:#dde3ea; --txt:#22303c; --mut:#6b7a88;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--txt);font-size:14px}
+  header{background:var(--blue);color:#fff;padding:14px 22px}
+  header h1{margin:0;font-size:19px;font-weight:600}
+  header p{margin:3px 0 0;font-size:12px;opacity:.85}
+  .tabs{display:flex;gap:2px;background:var(--blue);padding:0 22px}
+  .tab{padding:9px 20px;background:rgba(255,255,255,.12);color:#fff;border:none;cursor:pointer;
+       font-size:13.5px;border-radius:6px 6px 0 0}
+  .tab.active{background:var(--bg);color:var(--blue);font-weight:600}
+  .wrap{padding:16px 22px;max-width:1500px;margin:0 auto}
+  .controls{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;background:var(--card);
+            border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:14px}
+  .ctl label{display:block;font-size:11px;color:var(--mut);text-transform:uppercase;
+             letter-spacing:.4px;margin-bottom:3px}
+  select,input[type=text]{padding:7px 9px;border:1px solid var(--line);border-radius:6px;
+             background:#fff;font-size:13.5px;min-width:170px;color:var(--txt)}
+  .btn{padding:7px 14px;border:1px solid var(--line);background:#fff;border-radius:6px;cursor:pointer}
+  h2{font-size:16px;margin:20px 0 8px;color:var(--blue)}
+  h2 small{color:var(--mut);font-weight:400;font-size:12px}
+  .cards{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 4px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:8px;
+        padding:12px 16px;min-width:180px;flex:1}
+  .card .t{font-size:11.5px;color:var(--mut)}
+  .card .v{font-size:22px;font-weight:600;color:var(--blue);margin-top:2px}
+  .card .s{font-size:11px;color:var(--mut);margin-top:2px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(430px,1fr));gap:14px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+  .panel h3{margin:0 0 4px;font-size:14px;color:var(--blue)}
+  .panel .sub{font-size:11.5px;color:var(--mut);margin-bottom:8px}
+  svg text{font-family:inherit}
+  .legend{display:flex;gap:14px;font-size:11.5px;color:var(--mut);margin:4px 0 6px;flex-wrap:wrap}
+  .legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;
+      margin-right:4px;background:var(--c)}
+  table{border-collapse:collapse;width:100%;font-size:12.5px;background:#fff}
+  th{background:var(--blue);color:#fff;text-align:left;padding:7px 8px;position:sticky;top:0;
+     font-weight:600;font-size:11.5px;white-space:nowrap}
+  td{padding:5.5px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:hover td{background:#eef4fa}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .flag{font-size:10.5px;padding:2px 6px;border-radius:9px;white-space:nowrap}
+  .flag.rep{background:#e2f2e5;color:#1e7a34}.flag.ind{background:#fdeeda;color:#a05a10}
+  .geo-note{font-size:10px;color:var(--mut)}
+  .tablebox{max-height:640px;overflow:auto;border:1px solid var(--line);border-radius:8px}
+  #tooltip{position:fixed;pointer-events:none;background:#22303ce8;color:#fff;padding:8px 11px;
+           border-radius:6px;font-size:12px;display:none;z-index:99;max-width:290px;line-height:1.45}
+  .maplegend{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--mut);margin-top:6px;flex-wrap:wrap}
+  .maplegend .box{width:34px;height:12px;border:1px solid #ccc}
+  .note{font-size:11.5px;color:var(--mut);background:#fff8e6;border:1px solid #f2e3b3;
+        border-radius:6px;padding:8px 12px;margin:10px 0}
+  footer{padding:14px 22px;color:var(--mut);font-size:11px}
+  path.dist{stroke:#fff;stroke-width:.6;cursor:pointer}
+  path.dist:hover{stroke:#22303c;stroke-width:1.2}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pakistan Key Surveys — Province · Division · District Dashboard</h1>
+  <p>PSLM 2019-20 (district-representative) · HIES 2024-25 · LFS 2024-25 · PDS 2020 — built from PBS microdata with published survey weights</p>
+</header>
+<div class="tabs">
+  <button class="tab active" data-tab="explore" onclick="switchTab('explore')">Indicator Explorer</button>
+  <button class="tab" data-tab="map" onclick="switchTab('map')">Spatial Overview</button>
+</div>
+
+<div class="wrap" id="tab-explore">
+  <div class="controls">
+    <div class="ctl"><label>Province</label><select id="selProv" onchange="onProv()"></select></div>
+    <div class="ctl"><label>Division</label><select id="selDiv" onchange="onDiv()"></select></div>
+    <div class="ctl"><label>District</label><select id="selDist" onchange="render()"></select></div>
+    <div class="ctl"><label>&nbsp;</label><button class="btn" onclick="resetSel()">Reset to Pakistan</button></div>
+  </div>
+  <div id="geoHeader"></div>
+  <div class="cards" id="cards"></div>
+  <div id="distNote"></div>
+  <h2>Selected area vs province and national averages <small>headline indicators</small></h2>
+  <div class="panel"><div id="headline"></div></div>
+  <div class="grid" style="margin-top:14px" id="domainCharts"></div>
+  <h2>All indicators <small>long table — every variable from the four surveys with applicable averages</small></h2>
+  <div class="controls">
+    <div class="ctl"><label>Survey</label><select id="fltSurvey" onchange="renderTable()"></select></div>
+    <div class="ctl"><label>Domain</label><select id="fltDomain" onchange="renderTable()"></select></div>
+    <div class="ctl"><label>Search indicator</label><input type="text" id="fltText" oninput="renderTable()" placeholder="type to filter…"></div>
+  </div>
+  <div class="tablebox"><table id="bigTable"></table></div>
+</div>
+
+<div class="wrap" id="tab-map" style="display:none">
+  <div class="controls">
+    <div class="ctl"><label>Survey</label><select id="mapSurvey" onchange="onMapSurvey()"></select></div>
+    <div class="ctl"><label>Indicator</label><select id="mapInd" onchange="renderMap()" style="min-width:420px"></select></div>
+  </div>
+  <div class="grid" style="grid-template-columns: 2fr 1fr">
+    <div class="panel">
+      <h3 id="mapTitle"></h3>
+      <div class="sub" id="mapSub"></div>
+      <div id="mapBox"></div>
+      <div class="maplegend" id="mapLegend"></div>
+    </div>
+    <div class="panel">
+      <h3>Top / bottom districts</h3>
+      <div class="sub">Ranked by mapped value (district estimates; division estimate used where the survey has no district stratum)</div>
+      <div id="rankBox" style="max-height:560px;overflow:auto"></div>
+    </div>
+  </div>
+  <div class="note">PSLM 2019-20 is the only district-representative survey. HIES/LFS 2024-25 district values cover the
+    <b>rural stratum only</b> (their urban samples identify divisions, not districts) and PDS 2020 supports division level —
+    for those, districts are shaded with the value of the geography shown in the tooltip. AJK &amp; Gilgit-Baltistan are outside
+    the coverage of these four surveys and appear grey.</div>
+</div>
+
+<div id="tooltip"></div>
+<footer>Built from PBS microdata (E:\Data\1. Key Survey PBS) — weighted estimates. “Population base” = extrapolated denominator;
+percentages relate to that base. Estimates below each survey’s design level are indicative only. Boundaries: OCHA COD-AB Pakistan (admin2, 2022).</footer>
+
+<script>
+//__INJECT_DATA__
+
+// ---------- unpack dictionary-encoded payload ----------
+const S = P.surveys;
+const NI = P.inds.n.length, NR = P.rows.i.length;
+const IND = P.inds, DV = P.divs, DT = P.dists, R = P.rows;
+const LVL = ["National","Province","Division","District"];
+
+// value lookup maps: key = ind|geo
+const natV={}, provV={}, divV={}, distV={};
+for(let k=0;k<NR;k++){
+  const i=R.i[k], l=R.l[k];
+  const rec = {v:R.v[k], b:R.b[k], n:R.n[k], o:R.o[k]};
+  if(l===0) natV[i]=rec;
+  else if(l===1) provV[i+"|"+R.p[k]]=rec;
+  else if(l===2) divV[i+"|"+R.d[k]]=rec;
+  else distV[i+"|"+R.t[k]]=rec;
+}
+// geo hierarchies
+const provDivs = {}, divDists = {};
+DV.n.forEach((n,j)=>{ (provDivs[DV.p[j]] ||= []).push(j); });
+DT.n.forEach((n,j)=>{ (divDists[DT.d[j]] ||= []).push(j); });
+const distByName={}; DT.n.forEach((n,j)=>distByName[n]=j);
+const divByName={};  DV.n.forEach((n,j)=>divByName[n]=j);
+
+function fmt(v, unit){
+  if(v===null||v===undefined||Number.isNaN(v)) return "—";
+  if(unit==="persons"||unit==="households") return big(v);
+  if(unit&&unit.startsWith("PKR")) return "Rs "+Math.round(v).toLocaleString();
+  return (+v).toLocaleString(undefined,{maximumFractionDigits:1});
+}
+function big(v){
+  if(v===null||v===undefined) return "—";
+  if(v>=1e6) return (v/1e6).toLocaleString(undefined,{maximumFractionDigits:1})+" M";
+  if(v>=1e3) return Math.round(v).toLocaleString();
+  return Math.round(v).toString();
+}
+function repFlag(sIdx, lvl){
+  const s=S[sIdx];
+  if(lvl<=1) return ["rep","Representative"];
+  if(s==="PSLM 2019-20") return lvl===3?["rep","District-representative"]:["rep","Representative (district aggregate)"];
+  if(s==="PDS 2020") return ["ind","Indicative (division aggregate)"];
+  return lvl===2?["ind","Indicative (division aggregate)"]:["ind","Indicative (rural stratum only)"];
+}
+
+// ---------- selection state ----------
+let selP=-1, selD=-1, selT=-1;
+function opt(el, items, blank){
+  el.innerHTML = "";
+  const o=document.createElement("option"); o.value=-1; o.textContent=blank; el.appendChild(o);
+  items.forEach(([val,txt])=>{ const x=document.createElement("option"); x.value=val; x.textContent=txt; el.appendChild(x); });
+}
+function initControls(){
+  opt(document.getElementById("selProv"), P.provs.map((n,j)=>[j,n]), "Pakistan — all provinces");
+  onProv();
+  const fs=document.getElementById("fltSurvey");
+  opt(fs, S.map((n,j)=>[j,n]), "All surveys");
+  const doms=[...new Set(IND.d)].sort();
+  opt(document.getElementById("fltDomain"), doms.map(d=>[d,d]), "All domains");
+  opt(document.getElementById("mapSurvey"), S.map((n,j)=>[j,n]), "— choose survey —");
+  document.getElementById("mapSurvey").value=S.indexOf("PSLM 2019-20");
+  onMapSurvey();
+}
+function onProv(){
+  selP=+document.getElementById("selProv").value;
+  const list=(selP>=0?(provDivs[selP]||[]):[]).map(j=>[j,DV.n[j]]);
+  opt(document.getElementById("selDiv"), list, selP>=0?"All divisions":"— select province first —");
+  onDiv();
+}
+function onDiv(){
+  selD=+document.getElementById("selDiv").value;
+  const list=(selD>=0?(divDists[selD]||[]):[]).map(j=>[j,DT.n[j]]);
+  opt(document.getElementById("selDist"), list, selD>=0?"All districts":"— select division first —");
+  render();
+}
+function resetSel(){
+  document.getElementById("selProv").value=-1; onProv();
+}
+
+// current geography: [level, id, displayName, breadcrumb]
+function curGeo(){
+  selT=+document.getElementById("selDist").value;
+  selD=+document.getElementById("selDiv").value;
+  selP=+document.getElementById("selProv").value;
+  if(selT>=0) return [3,selT,DT.n[selT], P.provs[DT.p[selT]]+" › "+DV.n[DT.d[selT]]+" › "+DT.n[selT]+" district"];
+  if(selD>=0) return [2,selD,DV.n[selD]+" Division", P.provs[DV.p[selD]]+" › "+DV.n[selD]+" division"];
+  if(selP>=0) return [1,selP,P.provs[selP], P.provs[selP]+" province"];
+  return [0,-1,"Pakistan","National (survey coverage areas)"];
+}
+// value for indicator i at current geo with fallback; returns {v,b,n,geo,lvl}
+function valAt(i, lvl, id){
+  if(lvl===3){
+    const drec=distV[i+"|"+id]; if(drec) return {...drec, geo:"District", lvl:3};
+    const dv=divV[i+"|"+DT.d[id]]; if(dv) return {...dv, geo:"Division", lvl:2};
+    const pv=provV[i+"|"+DT.p[id]]; if(pv) return {...pv, geo:"Province", lvl:1};
+  } else if(lvl===2){
+    const dv=divV[i+"|"+id]; if(dv) return {...dv, geo:"Division", lvl:2};
+    const pv=provV[i+"|"+DV.p[id]]; if(pv) return {...pv, geo:"Province", lvl:1};
+  } else if(lvl===1){
+    const pv=provV[i+"|"+id]; if(pv) return {...pv, geo:"Province", lvl:1};
+  }
+  const nv=natV[i]; if(nv) return {...nv, geo:"National", lvl:0};
+  return null;
+}
+function exactAt(i, lvl, id){          // no fallback
+  if(lvl===3) return distV[i+"|"+id]||null;
+  if(lvl===2) return divV[i+"|"+id]||null;
+  if(lvl===1) return provV[i+"|"+id]||null;
+  return natV[i]||null;
+}
+function provOf(lvl,id){ return lvl===3?DT.p[id]:lvl===2?DV.p[id]:lvl===1?id:-1; }
+function divOf(lvl,id){ return lvl===3?DT.d[id]:lvl===2?id:-1; }
+function findInd(surveyName, indName){
+  const s=S.indexOf(surveyName);
+  for(let i=0;i<NI;i++) if(IND.s[i]===s && IND.n[i]===indName) return i;
+  return -1;
+}
+
+// ---------- rendering: header + cards ----------
+function render(){
+  const [lvl,id,name,crumb]=curGeo();
+  document.getElementById("geoHeader").innerHTML =
+    `<h2 style="margin-top:4px">${name} <small>${crumb}</small></h2>`;
+  // cards: population & households per survey + a couple of headline stats
+  const cardDefs=[
+    ["PSLM 2019-20","Population (extrapolated)","Population — PSLM 2019-20"],
+    ["HIES 2024-25","Population (extrapolated)","Population — HIES 2024-25"],
+    ["LFS 2024-25","Population (extrapolated)","Population — LFS 2024-25"],
+    ["PSLM 2019-20","Households (extrapolated)","Households — PSLM 2019-20"],
+    ["PSLM 2019-20","Literacy rate (10 years and older)","Literacy 10+ (PSLM)"],
+    ["LFS 2024-25","Unemployment rate","Unemployment (LFS)"],
+    ["HIES 2024-25","Average monthly household income","HH income (HIES)"],
+    ["HIES 2024-25","Moderate or severe food insecurity (FIES raw score 4+)","Food insecurity (HIES)"]
+  ];
+  let ch="";
+  cardDefs.forEach(([sv,ind,label])=>{
+    const i=findInd(sv,ind); if(i<0) return;
+    const r=valAt(i,lvl,id); if(!r) return;
+    const isCount=IND.u[i]==="persons"||IND.u[i]==="households";
+    const val=isCount?big(r.b):fmt(r.v,IND.u[i])+(IND.ty[i]!=="mean"&&!IND.u[i].startsWith("per ")?"%":"");
+    ch+=`<div class="card"><div class="t">${label}</div><div class="v">${val}</div>
+         <div class="s">${r.geo!==LVL[lvl]?r.geo+" estimate":IND.u[i]}</div></div>`;
+  });
+  document.getElementById("cards").innerHTML=ch;
+  document.getElementById("distNote").innerHTML = (lvl===3)
+    ? `<div class="note"><b>Reading district values:</b> PSLM 2019-20 was designed for district estimates.
+       HIES 2024-25 and LFS 2024-25 district figures cover the <b>rural parts of the district only</b> and are indicative;
+       their urban population is included at division level. PDS 2020 is shown at division level.
+       Where a survey has no value for this district, the table falls back to the division/province estimate (noted per row).</div>` : "";
+  renderHeadline(lvl,id);
+  renderDomainCharts(lvl,id);
+  renderTable();
+}
+
+// ---------- SVG bar helpers ----------
+function barChart(rows, opts){
+  // rows: [{label, series:[{name,val,color}], unit}]
+  const w=opts.width||640, bh=15, gap=6, groupGap=13, lm=opts.lm||235, rm=55;
+  const ns=rows.length?rows[0].series.length:0;
+  const gh=ns*(bh+2)+groupGap;
+  const h=rows.length*gh+8;
+  const maxv=Math.max(1,...rows.flatMap(r=>r.series.map(s=>s.val||0)));
+  const sc=v=>(w-lm-rm)*(v/maxv);
+  let out=`<svg viewBox="0 0 ${w} ${h}" style="width:100%">`;
+  rows.forEach((r,ri)=>{
+    const y0=ri*gh+4;
+    out+=`<text x="${lm-8}" y="${y0+ns*(bh+2)/2+4}" text-anchor="end" font-size="11.5" fill="#22303c">${esc(shorten(r.label,38))}</text>`;
+    r.series.forEach((s,si)=>{
+      const y=y0+si*(bh+2);
+      const v=s.val;
+      out+=`<rect x="${lm}" y="${y}" width="${v==null?0:Math.max(1,sc(v))}" height="${bh}" fill="${s.color}" rx="2"><title>${esc(r.label)} — ${s.name}: ${fmt(v,r.unit)}</title></rect>`;
+      out+=`<text x="${lm+(v==null?0:Math.max(1,sc(v)))+4}" y="${y+bh-3}" font-size="10.5" fill="#556">${v==null?"—":fmt(v,r.unit)}</text>`;
+    });
+  });
+  out+="</svg>";
+  return out;
+}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+function shorten(s,n){return s.length>n?s.slice(0,n-1)+"…":s}
+const COLS=["#1f4e79","#6baed6","#c7d8ea"];
+
+function renderHeadline(lvl,id){
+  const defs=[
+    ["PSLM 2019-20","Literacy rate (10 years and older)"],
+    ["PSLM 2019-20","Net enrolment rate - primary (age 6-10, class 1-5)"],
+    ["PSLM 2019-20","Out-of-school children (5-16)"],
+    ["PSLM 2019-20","Fully immunized children 12-23 months (record & recall)"],
+    ["PSLM 2019-20","Improved drinking water source"],
+    ["PSLM 2019-20","Flush toilet (sewer/septic/drain/pit)"],
+    ["PSLM 2019-20","Electricity as main lighting fuel"],
+    ["LFS 2024-25","Labour force participation rate (10+)"],
+    ["LFS 2024-25","Unemployment rate"],
+    ["HIES 2024-25","Used internet in last 3 months (10+)"],
+    ["HIES 2024-25","Moderate or severe food insecurity (FIES raw score 4+)"]
+  ];
+  const selName=curGeo()[2];
+  const rows=[];
+  defs.forEach(([sv,ind])=>{
+    const i=findInd(sv,ind); if(i<0) return;
+    const r=valAt(i,lvl,id);
+    const pv=provV[i+"|"+provOf(lvl,id)];
+    rows.push({label:shortName(ind)+" — "+sv.split(" ")[0], unit:IND.u[i], series:[
+      {name:selName,color:COLS[0],val:r?r.v:null},
+      {name:"Province avg",color:COLS[1],val:lvl>=1&&pv?pv.v:null},
+      {name:"Pakistan avg",color:COLS[2],val:IND.nat[i]}
+    ]});
+  });
+  document.getElementById("headline").innerHTML =
+    `<div class="legend"><span style="--c:${COLS[0]}">${esc(selName)}</span>`+
+    (lvl>=1?`<span style="--c:${COLS[1]}">Province average</span>`:"")+
+    `<span style="--c:${COLS[2]}">Pakistan average</span></div>`+
+    barChart(rows,{width:820,lm:255});
+}
+function shortName(s){
+  return s.replace("Net enrolment rate - primary (age 6-10, class 1-5)","Primary NER (6-10)")
+          .replace("Fully immunized children 12-23 months (record & recall)","Fully immunized 12-23m")
+          .replace("Moderate or severe food insecurity (FIES raw score 4+)","Food insecurity (mod+sev)")
+          .replace("Literacy rate (10 years and older)","Literacy 10+")
+          .replace("Labour force participation rate (10+)","LFP rate 10+")
+          .replace("Used internet in last 3 months (10+)","Internet use 10+")
+          .replace("Flush toilet (sewer/septic/drain/pit)","Flush toilet")
+          .replace("Electricity as main lighting fuel","Electric lighting")
+          .replace("Improved drinking water source","Improved water")
+          .replace("Out-of-school children (5-16)","Out-of-school 5-16");
+}
+
+function renderDomainCharts(lvl,id){
+  const groups=[
+    {title:"Education (PSLM 2019-20)", survey:"PSLM 2019-20", pick:[
+      "Literacy rate (10 years and older)","Adult literacy rate (15 years and older)",
+      "Ever attended school (10+)","Net enrolment rate - primary (age 6-10, class 1-5)",
+      "Net enrolment rate - middle (age 11-13, class 6-8)","Net enrolment rate - matric (age 14-15, class 9-10)",
+      "Out-of-school children (5-16)","Primary enrolment in government schools"]},
+    {title:"Health & maternal care (PSLM 2019-20)", survey:"PSLM 2019-20", pick:[
+      "Fully immunized children 12-23 months (record & recall)","Children under 5 with diarrhoea in last 15 days",
+      "Prenatal consultation (births in last 3 years)","Skilled birth attendance (doctor/nurse/midwife/LHV)",
+      "Institutional delivery (govt/private facility)","Postnatal checkup within 6 weeks",
+      "Household visited by Lady Health Worker in last month"]},
+    {title:"Water, sanitation & housing (PSLM 2019-20)", survey:"PSLM 2019-20", pick:[
+      "Improved drinking water source","Flush toilet (sewer/septic/drain/pit)","No toilet in household",
+      "Connected to covered/underground drainage","Handwashing place with soap and water",
+      "Electricity as main lighting fuel","Gas/LPG as main cooking fuel","RCC/RBC roof"]},
+    {title:"Labour market (LFS 2024-25)", survey:"LFS 2024-25", pick:[
+      "Labour force participation rate (10+)","Female labour force participation rate (10+)",
+      "Unemployment rate","Youth unemployment rate (15-24)","Employment in agriculture",
+      "Employment in industry (mining/manufacturing/utilities/construction)","Employment in services",
+      "Time-related underemployment (<35 hrs, wants more work)"]},
+    {title:"Welfare & food security (HIES 2024-25)", survey:"HIES 2024-25", pick:[
+      "Average monthly household income","Average monthly household consumption expenditure",
+      "Average monthly per-capita income","Average monthly per-capita consumption expenditure"],
+      money:true},
+    {title:"ICT & financial inclusion (HIES 2024-25)", survey:"HIES 2024-25", pick:[
+      "Owns a mobile/smart phone (10+)","Owns a smart phone (10+)","Used internet in last 3 months (10+)",
+      "Has bank or mobile-money account (15+)","Household has internet facility",
+      "Moderate or severe food insecurity (FIES raw score 4+)"]},
+    {title:"Demographics & vital rates (PDS 2020)", survey:"PDS 2020", pick:[
+      "Crude birth rate (births in 2020 per 1,000 population)","Crude death rate (deaths in 2020 per 1,000 population)",
+      "Infant deaths per 1,000 live births (IMR, births of last 3 years)",
+      "Average household size","Mean children ever born (ever-married women 15-49)",
+      "Mean age at first marriage (ever-married women 15-49)"]}
+  ];
+  const selName=curGeo()[2];
+  let html="";
+  groups.forEach(g=>{
+    const rows=[]; let geoUsed="";
+    g.pick.forEach(ind=>{
+      const i=findInd(g.survey,ind); if(i<0) return;
+      const r=valAt(i,lvl,id);
+      if(r&&r.geo!==LVL[lvl]) geoUsed=r.geo;
+      rows.push({label:shortName(ind),unit:IND.u[i],series:[
+        {name:selName,color:COLS[0],val:r?r.v:null},
+        {name:"Pakistan avg",color:COLS[2],val:IND.nat[i]}]});
+    });
+    if(!rows.length) return;
+    html+=`<div class="panel"><h3>${g.title}</h3>
+      <div class="sub">${geoUsed?`shown at ${geoUsed.toLowerCase()} level for this selection · `:""}dark = selection, light = Pakistan average</div>
+      ${barChart(rows,{width:620,lm:225})}</div>`;
+  });
+  document.getElementById("domainCharts").innerHTML=html;
+}
+
+// ---------- big table ----------
+function renderTable(){
+  const [lvl,id]=curGeo();
+  const fS=document.getElementById("fltSurvey").value;
+  const fD=document.getElementById("fltDomain").value;
+  const fT=document.getElementById("fltText").value.toLowerCase();
+  let html=`<thead><tr><th>Survey</th><th>Domain</th><th>Indicator</th><th>Unit</th>
+    <th>Value</th><th>Estimate for</th><th>Division avg</th><th>Province avg</th><th>National avg</th>
+    <th>Population base</th><th>Pop. with attribute</th><th>Status</th></tr></thead><tbody>`;
+  let count=0;
+  for(let i=0;i<NI;i++){
+    if(fS!=="-1" && +fS!==IND.s[i]) continue;
+    if(fD!=="-1" && fD!==IND.d[i]) continue;
+    if(fT && !IND.n[i].toLowerCase().includes(fT)) continue;
+    const r=valAt(i,lvl,id); if(!r) continue;
+    const dv = lvl>=2 ? exactAt(i,2,divOf(lvl,id)) : null;
+    const pv = lvl>=1 ? exactAt(i,1,provOf(lvl,id)) : null;
+    const [fc,ft]=repFlag(IND.s[i], r.lvl);
+    const isCount=IND.u[i]==="persons"||IND.u[i]==="households";
+    html+=`<tr><td>${S[IND.s[i]]}</td><td>${IND.d[i]}</td><td>${esc(IND.n[i])}</td>
+      <td class="geo-note">${esc(IND.u[i])}</td>
+      <td class="num"><b>${isCount?big(r.b):fmt(r.v,IND.u[i])}</b></td>
+      <td class="geo-note">${r.geo}${(S[IND.s[i]]!=="PSLM 2019-20"&&r.lvl===3)?" (rural)":""}</td>
+      <td class="num">${dv?(isCount?big(dv.b):fmt(dv.v,IND.u[i])):"—"}</td>
+      <td class="num">${pv?(isCount?big(pv.b):fmt(pv.v,IND.u[i])):"—"}</td>
+      <td class="num">${isCount?(natV[i]?big(natV[i].b):"—"):fmt(IND.nat[i],IND.u[i])}</td>
+      <td class="num">${big(r.b)}</td>
+      <td class="num">${r.n>=0?big(r.n):"—"}</td>
+      <td><span class="flag ${fc}">${ft}</span></td></tr>`;
+    count++;
+  }
+  html+=`</tbody>`;
+  document.getElementById("bigTable").innerHTML=html;
+}
+
+// ---------- map ----------
+let mapPaths=null, mapBBox=null;
+function projectGeo(){
+  // compute bbox over Pakistan features
+  let minx=99,miny=99,maxx=-99,maxy=-99;
+  const scan=c=>{ if(typeof c[0]==="number"){ if(c[0]<minx)minx=c[0]; if(c[0]>maxx)maxx=c[0];
+                   if(c[1]<miny)miny=c[1]; if(c[1]>maxy)maxy=c[1]; } else c.forEach(scan); };
+  GEO.features.forEach(f=>scan(f.geometry.coordinates));
+  mapBBox=[minx,miny,maxx,maxy];
+}
+function pathFor(geom,W,H){
+  const [minx,miny,maxx,maxy]=mapBBox;
+  const kx=W/(maxx-minx), ky=H/(maxy-miny), k=Math.min(kx,ky);
+  const px=lon=>((lon-minx)*k).toFixed(1), py=lat=>((maxy-lat)*k*1.08).toFixed(1);
+  let d="";
+  const ring=r=>{ d+="M"+r.map(c=>px(c[0])+","+py(c[1])).join("L")+"Z"; };
+  if(geom.type==="Polygon") geom.coordinates.forEach(ring);
+  else geom.coordinates.forEach(p=>p.forEach(ring));
+  return d;
+}
+const RAMP=["#eaf1f8","#c6dbef","#85bcdb","#4292c6","#08519c"];
+function onMapSurvey(){
+  const s=+document.getElementById("mapSurvey").value;
+  const sel=document.getElementById("mapInd");
+  sel.innerHTML="";
+  for(let i=0;i<NI;i++) if(IND.s[i]===s){
+    const o=document.createElement("option"); o.value=i;
+    o.textContent=IND.d[i]+" — "+IND.n[i];
+    sel.appendChild(o);
+  }
+  // default to a meaningful indicator
+  const prefer=["Literacy rate (10 years and older)","Unemployment rate",
+                "Average monthly household income","Crude birth rate (births in 2020 per 1,000 population)"];
+  for(const p of prefer){ const i=findInd(S[s],p); if(i>=0){ sel.value=i; break; } }
+  renderMap();
+}
+function mapValueFor(f, i, sIdx){
+  const pr=f.properties, sName=S[sIdx];
+  if(sName==="PDS 2020"){
+    const dj=divByName[pr.division]; if(dj===undefined) return null;
+    const r=divV[i+"|"+dj]; return r?{...r,geo:pr.division+" division"}:null;
+  }
+  const nm=sName==="PSLM 2019-20"?pr.d_pslm:pr.d_hies;
+  const tj=distByName[nm];
+  if(tj!==undefined){ const r=distV[i+"|"+tj];
+    if(r) return {...r, geo:nm+(sName!=="PSLM 2019-20"?" district (rural)":" district")}; }
+  const dj=divByName[pr.division];
+  if(dj!==undefined){ const r=divV[i+"|"+dj]; if(r) return {...r,geo:pr.division+" division"}; }
+  return null;
+}
+function renderMap(){
+  if(!mapBBox) projectGeo();
+  const s=+document.getElementById("mapSurvey").value;
+  const i=+document.getElementById("mapInd").value;
+  if(Number.isNaN(i)) return;
+  const W=680,H=640;
+  const vals=[], recs=[];
+  GEO.features.forEach(f=>{ const r=mapValueFor(f,i,s); recs.push(r); if(r&&r.v!=null) vals.push(r.v); });
+  const sorted=[...vals].sort((a,b)=>a-b);
+  const q=p=>sorted.length?sorted[Math.min(sorted.length-1,Math.floor(p*sorted.length))]:0;
+  const br=[q(.2),q(.4),q(.6),q(.8)];
+  const colFor=v=>v==null?"#e3e3e3":RAMP[br.filter(b=>v>b).length];
+  let svg=`<svg viewBox="0 0 ${W} ${H*1.02}" style="width:100%">`;
+  GEO.features.forEach((f,j)=>{
+    const r=recs[j];
+    svg+=`<path class="dist" d="${pathFor(f.geometry,W,H)}" fill="${colFor(r?r.v:null)}"
+      data-j="${j}"></path>`;
+  });
+  svg+="</svg>";
+  const box=document.getElementById("mapBox");
+  box.innerHTML=svg;
+  const tt=document.getElementById("tooltip");
+  const isCount=IND.u[i]==="persons"||IND.u[i]==="households";
+  box.querySelectorAll("path.dist").forEach(p=>{
+    p.addEventListener("mousemove",e=>{
+      const j=+p.dataset.j, f=GEO.features[j], r=recs[j];
+      tt.style.display="block"; tt.style.left=(e.clientX+14)+"px"; tt.style.top=(e.clientY+10)+"px";
+      tt.innerHTML=`<b>${esc(f.properties.name)}</b> — ${esc(f.properties.province)}<br>`+
+        (r?`${esc(IND.n[i])}: <b>${isCount?big(r.b):fmt(r.v,IND.u[i])}</b><br>
+            <span style="opacity:.75">Estimate: ${esc(r.geo)} · base ${big(r.b)}</span><br>
+            <span style="opacity:.75">Pakistan avg: ${isCount?"—":fmt(IND.nat[i],IND.u[i])}</span>`
+          :`<span style="opacity:.7">No estimate (outside survey coverage)</span>`);
+    });
+    p.addEventListener("mouseleave",()=>{tt.style.display="none";});
+  });
+  document.getElementById("mapTitle").textContent=IND.n[i];
+  document.getElementById("mapSub").textContent=S[s]+" · "+IND.u[i]+" · quintile shading of mapped values";
+  let leg="";
+  const edges=[sorted[0]||0,...br,sorted[sorted.length-1]||0];
+  for(let k2=0;k2<5;k2++)
+    leg+=`<div class="box" style="background:${RAMP[k2]}"></div><span>${fmt(edges[k2],IND.u[i])}–${fmt(edges[k2+1],IND.u[i])}</span>`;
+  leg+=`<div class="box" style="background:#e3e3e3"></div><span>no data</span>`;
+  document.getElementById("mapLegend").innerHTML=leg;
+  // ranking
+  const ranked=GEO.features.map((f,j)=>({f,r:recs[j]})).filter(x=>x.r&&x.r.v!=null&&x.r.geo.includes("district"))
+    .sort((a,b)=>b.r.v-a.r.v);
+  let rk="<table><thead><tr><th>#</th><th>District</th><th>Province</th><th style='text-align:right'>Value</th></tr></thead><tbody>";
+  ranked.forEach((x,n)=>{
+    rk+=`<tr><td>${n+1}</td><td>${esc(x.f.properties.name)}</td><td class="geo-note">${esc(x.f.properties.province)}</td>
+      <td class="num">${isCount?big(x.r.b):fmt(x.r.v,IND.u[i])}</td></tr>`;
+  });
+  rk+="</tbody></table>";
+  document.getElementById("rankBox").innerHTML=ranked.length?rk:"<div class='sub'>No district-level values for this indicator — map shows division estimates.</div>";
+}
+
+function switchTab(t){
+  document.querySelectorAll(".tab").forEach(b=>b.classList.toggle("active",b.dataset.tab===t));
+  document.getElementById("tab-explore").style.display=t==="explore"?"":"none";
+  document.getElementById("tab-map").style.display=t==="map"?"":"none";
+  if(t==="map") renderMap();
+}
+
+initControls();
+render();
+</script>
+</body>
+</html>
