@@ -1,0 +1,132 @@
+district_code,district_nm,province_nm,division_nm
+101,Abbottabad,Khyber Pakhtunkhwa,Hazara
+102,Bajaur,Khyber Pakhtunkhwa,Malakand
+103,Bannu,Khyber Pakhtunkhwa,Bannu
+104,Batagram,Khyber Pakhtunkhwa,Hazara
+105,Buner,Khyber Pakhtunkhwa,Malakand
+106,Charsadda,Khyber Pakhtunkhwa,Peshawar
+107,Chitral,Khyber Pakhtunkhwa,Malakand
+108,Dera Ismail Khan,Khyber Pakhtunkhwa,Dera Ismail Khan
+109,Hangu,Khyber Pakhtunkhwa,Kohat
+110,Haripur,Khyber Pakhtunkhwa,Hazara
+111,Karak,Khyber Pakhtunkhwa,Kohat
+112,Khyber,Khyber Pakhtunkhwa,Peshawar
+113,Kohat,Khyber Pakhtunkhwa,Kohat
+114,Kohistan,Khyber Pakhtunkhwa,Hazara
+115,Kurram,Khyber Pakhtunkhwa,Kohat
+116,Lakki Marwat,Khyber Pakhtunkhwa,Bannu
+117,Lower Dir,Khyber Pakhtunkhwa,Malakand
+118,Malakand,Khyber Pakhtunkhwa,Malakand
+119,Mansehra,Khyber Pakhtunkhwa,Hazara
+120,Mardan,Khyber Pakhtunkhwa,Mardan
+121,Mohmand,Khyber Pakhtunkhwa,Peshawar
+122,North Waziristan,Khyber Pakhtunkhwa,Bannu
+123,Nowshera,Khyber Pakhtunkhwa,Peshawar
+124,Orakzai,Khyber Pakhtunkhwa,Kohat
+125,Peshawar,Khyber Pakhtunkhwa,Peshawar
+126,Shangla,Khyber Pakhtunkhwa,Malakand
+127,South Waziristan,Khyber Pakhtunkhwa,Dera Ismail Khan
+128,Swabi,Khyber Pakhtunkhwa,Mardan
+129,Swat,Khyber Pakhtunkhwa,Malakand
+130,Tank,Khyber Pakhtunkhwa,Dera Ismail Khan
+131,Torghar,Khyber Pakhtunkhwa,Hazara
+132,Upper Dir,Khyber Pakhtunkhwa,Malakand
+201,Attock,Punjab,Rawalpindi
+202,Bahawalnagar,Punjab,Bahawalpur
+203,Bahawalpur,Punjab,Bahawalpur
+204,Bhakkar,Punjab,Sargodha
+205,Chakwal,Punjab,Rawalpindi
+206,Chiniot,Punjab,Faisalabad
+207,Dera Ghazi Khan,Punjab,Dera Ghazi Khan
+208,Faisalabad,Punjab,Faisalabad
+209,Gujranwala,Punjab,Gujranwala
+210,Gujrat,Punjab,Gujranwala
+211,Hafizabad,Punjab,Gujranwala
+212,Islamabad,Islamabad ICT,Islamabad
+213,Jhelum,Punjab,Rawalpindi
+214,Jhang,Punjab,Faisalabad
+215,Kasur,Punjab,Lahore
+216,Khanewal,Punjab,Multan
+217,Khushab,Punjab,Sargodha
+218,Lahore,Punjab,Lahore
+219,Layyah,Punjab,Dera Ghazi Khan
+220,Lodhran,Punjab,Multan
+221,Mandi Bahauddin,Punjab,Gujranwala
+222,Mianwali,Punjab,Sargodha
+223,Multan,Punjab,Multan
+224,Muzaffargarh,Punjab,Dera Ghazi Khan
+225,Nankana Sahib,Punjab,Lahore
+226,Narowal,Punjab,Gujranwala
+227,Okara,Punjab,Sahiwal
+228,Pakpattan,Punjab,Sahiwal
+229,Rahim Yar Khan,Punjab,Bahawalpur
+230,Rajanpur,Punjab,Dera Ghazi Khan
+231,Rawalpindi,Punjab,Rawalpindi
+232,Sahiwal,Punjab,Sahiwal
+233,Sargodha,Punjab,Sargodha
+234,Sheikhupura,Punjab,Lahore
+235,Sialkot,Punjab,Gujranwala
+236,Toba Tek Singh,Punjab,Faisalabad
+237,Vehari,Punjab,Multan
+301,Badin,Sindh,Hyderabad
+302,Dadu,Sindh,Hyderabad
+303,Ghotki,Sindh,Sukkur
+304,Hyderabad,Sindh,Hyderabad
+305,Jacobabad,Sindh,Larkana
+306,Jamshoro,Sindh,Hyderabad
+307,Karachi Central,Sindh,Karachi
+308,Karachi East,Sindh,Karachi
+309,Malir,Sindh,Karachi
+310,Karachi South,Sindh,Karachi
+311,Karachi West,Sindh,Karachi
+312,Kashmore,Sindh,Larkana
+313,Khairpur,Sindh,Sukkur
+314,Korangi,Sindh,Karachi
+315,Larkana,Sindh,Larkana
+316,Matiari,Sindh,Hyderabad
+317,Mirpur Khas,Sindh,Mirpur Khas
+318,Naushahro Feroze,Sindh,Shaheed Benazirabad
+319,Sanghar,Sindh,Shaheed Benazirabad
+320,Kambar Shahdad Kot,Sindh,Larkana
+321,Shaheed Benazirabad,Sindh,Shaheed Benazirabad
+322,Shikarpur,Sindh,Larkana
+323,Sujawal,Sindh,Hyderabad
+324,Sukkur,Sindh,Sukkur
+325,Tando Allahyar,Sindh,Hyderabad
+326,Tando Muhammad Khan,Sindh,Hyderabad
+327,Tharparkar,Sindh,Mirpur Khas
+328,Thatta,Sindh,Hyderabad
+329,Umer Kot,Sindh,Mirpur Khas
+401,Awaran,Balochistan,Kalat
+402,Barkhan,Balochistan,Loralai
+403,Chagai,Balochistan,Rakhshan
+404,Dera Bugti,Balochistan,Sibi
+405,Duki,Balochistan,Loralai
+406,Gwadar,Balochistan,Mekran
+407,Harnai,Balochistan,Sibi
+408,Jaffarabad,Balochistan,Nasirabad
+409,Jhal Magsi,Balochistan,Nasirabad
+410,Kachhi,Balochistan,Nasirabad
+411,Kalat,Balochistan,Kalat
+412,Kech,Balochistan,Mekran
+413,Kharan,Balochistan,Rakhshan
+414,Khuzdar,Balochistan,Kalat
+415,Kohlu,Balochistan,Sibi
+416,Lasbela,Balochistan,Kalat
+417,Loralai,Balochistan,Loralai
+418,Mastung,Balochistan,Kalat
+419,Musakhel,Balochistan,Loralai
+420,Nasirabad,Balochistan,Nasirabad
+421,Nushki,Balochistan,Rakhshan
+422,Panjgur,Balochistan,Mekran
+423,Pishin,Balochistan,Quetta
+424,Killa Abdullah,Balochistan,Quetta
+425,Killa Saifullah,Balochistan,Zhob
+426,Quetta,Balochistan,Quetta
+427,Shaheed Sikandarabad,Balochistan,Kalat
+428,Sherani,Balochistan,Zhob
+429,Sibi,Balochistan,Sibi
+430,Sohbatpur,Balochistan,Nasirabad
+431,Washuk,Balochistan,Rakhshan
+432,Zhob,Balochistan,Zhob
+433,Ziarat,Balochistan,Sibi

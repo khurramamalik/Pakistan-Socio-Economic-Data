@@ -1,0 +1,194 @@
+geo3,province_nm,division_nm,district_nm
+831,Azad Jammu & Kashmir,Mirpur,Bhimber
+833,Azad Jammu & Kashmir,Mirpur,Kotli
+832,Azad Jammu & Kashmir,Mirpur,Mirpur
+813,Azad Jammu & Kashmir,Muzaffarabad,Jhelum Valley
+811,Azad Jammu & Kashmir,Muzaffarabad,Muzaffarabad
+812,Azad Jammu & Kashmir,Muzaffarabad,Neelum
+821,Azad Jammu & Kashmir,Poonch,Bagh
+824,Azad Jammu & Kashmir,Poonch,Haveli
+823,Azad Jammu & Kashmir,Poonch,Poonch
+822,Azad Jammu & Kashmir,Poonch,Sudhnoti
+454,Balochistan,Kalat,Awaran
+451,Balochistan,Kalat,Kalat
+453,Balochistan,Kalat,Khuzdar
+457,Balochistan,Kalat,Lasbela
+452,Balochistan,Kalat,Mastung
+458,Balochistan,Kalat,Surab
+481,Balochistan,Loralai,Barkhan
+482,Balochistan,Loralai,Duki
+483,Balochistan,Loralai,Loralai
+484,Balochistan,Loralai,Musakhel
+462,Balochistan,Mekran,Gwadar
+461,Balochistan,Mekran,Kech
+463,Balochistan,Mekran,Panjgur
+442,Balochistan,Nasirabad,Jaffarabad
+444,Balochistan,Nasirabad,Jhal Magsi
+441,Balochistan,Nasirabad,Kachhi
+443,Balochistan,Nasirabad,Nasirabad
+445,Balochistan,Nasirabad,Sohbatpur
+414,Balochistan,Quetta,Chaman
+413,Balochistan,Quetta,Killa Abdullah
+412,Balochistan,Quetta,Pishin
+411,Balochistan,Quetta,Quetta
+471,Balochistan,Rakhshan,Chagai
+472,Balochistan,Rakhshan,Kharan
+473,Balochistan,Rakhshan,Nushki
+474,Balochistan,Rakhshan,Washuk
+435,Balochistan,Sibi,Dera Bugti
+432,Balochistan,Sibi,Harnai
+434,Balochistan,Sibi,Kohlu
+431,Balochistan,Sibi,Sibi
+433,Balochistan,Sibi,Ziarat
+424,Balochistan,Zhob,Killa Saifullah
+426,Balochistan,Zhob,Sherani
+425,Balochistan,Zhob,Zhob
+721,Gilgit-Baltistan,Baltistan,Ghanche
+724,Gilgit-Baltistan,Baltistan,Kharmang
+723,Gilgit-Baltistan,Baltistan,Shigar
+722,Gilgit-Baltistan,Baltistan,Skardu
+732,Gilgit-Baltistan,Diamer-Astore,Astore
+731,Gilgit-Baltistan,Diamer-Astore,Diamer
+712,Gilgit-Baltistan,Gilgit,Ghizer
+711,Gilgit-Baltistan,Gilgit,Gilgit
+713,Gilgit-Baltistan,Gilgit,Hunza
+714,Gilgit-Baltistan,Gilgit,Nagar
+611,Islamabad ICT,Islamabad,Islamabad
+161,Khyber Pakhtunkhwa,Bannu,Bannu
+162,Khyber Pakhtunkhwa,Bannu,Lakki Marwat
+163,Khyber Pakhtunkhwa,Bannu,North Waziristan
+171,Khyber Pakhtunkhwa,Dera Ismail Khan,Dera Ismail Khan
+173,Khyber Pakhtunkhwa,Dera Ismail Khan,South Waziristan
+172,Khyber Pakhtunkhwa,Dera Ismail Khan,Tank
+124,Khyber Pakhtunkhwa,Hazara,Abbottabad
+123,Khyber Pakhtunkhwa,Hazara,Batagram
+125,Khyber Pakhtunkhwa,Hazara,Haripur
+129,Khyber Pakhtunkhwa,Hazara,Kolai Palas Kohistan
+127,Khyber Pakhtunkhwa,Hazara,Lower Kohistan
+122,Khyber Pakhtunkhwa,Hazara,Mansehra
+126,Khyber Pakhtunkhwa,Hazara,Torghar
+128,Khyber Pakhtunkhwa,Hazara,Upper Kohistan
+152,Khyber Pakhtunkhwa,Kohat,Hangu
+153,Khyber Pakhtunkhwa,Kohat,Karak
+151,Khyber Pakhtunkhwa,Kohat,Kohat
+154,Khyber Pakhtunkhwa,Kohat,Kurram
+155,Khyber Pakhtunkhwa,Kohat,Orakzai
+118,Khyber Pakhtunkhwa,Malakand,Bajaur
+116,Khyber Pakhtunkhwa,Malakand,Buner
+111,Khyber Pakhtunkhwa,Malakand,Lower Chitral
+113,Khyber Pakhtunkhwa,Malakand,Lower Dir
+117,Khyber Pakhtunkhwa,Malakand,Malakand
+115,Khyber Pakhtunkhwa,Malakand,Shangla
+114,Khyber Pakhtunkhwa,Malakand,Swat
+119,Khyber Pakhtunkhwa,Malakand,Upper Chitral
+112,Khyber Pakhtunkhwa,Malakand,Upper Dir
+131,Khyber Pakhtunkhwa,Mardan,Mardan
+132,Khyber Pakhtunkhwa,Mardan,Swabi
+141,Khyber Pakhtunkhwa,Peshawar,Charsadda
+144,Khyber Pakhtunkhwa,Peshawar,Khyber
+145,Khyber Pakhtunkhwa,Peshawar,Mohmand
+143,Khyber Pakhtunkhwa,Peshawar,Nowshera
+142,Khyber Pakhtunkhwa,Peshawar,Peshawar
+292,Punjab,Bahawalpur,Bahawalnagar
+291,Punjab,Bahawalpur,Bahawalpur
+293,Punjab,Bahawalpur,Rahim Yar Khan
+281,Punjab,Dera Ghazi Khan,Dera Ghazi Khan
+283,Punjab,Dera Ghazi Khan,Layyah
+284,Punjab,Dera Ghazi Khan,Muzaffargarh
+282,Punjab,Dera Ghazi Khan,Rajanpur
+232,Punjab,Faisalabad,Chiniot
+231,Punjab,Faisalabad,Faisalabad
+233,Punjab,Faisalabad,Jhang
+234,Punjab,Faisalabad,Toba Tek Singh
+241,Punjab,Gujranwala,Gujranwala
+243,Punjab,Gujranwala,Gujrat
+242,Punjab,Gujranwala,Hafizabad
+244,Punjab,Gujranwala,Mandi Bahauddin
+246,Punjab,Gujranwala,Narowal
+245,Punjab,Gujranwala,Sialkot
+252,Punjab,Lahore,Kasur
+251,Punjab,Lahore,Lahore
+254,Punjab,Lahore,Nankana Sahib
+253,Punjab,Lahore,Sheikhupura
+274,Punjab,Multan,Khanewal
+273,Punjab,Multan,Lodhran
+272,Punjab,Multan,Multan
+271,Punjab,Multan,Vehari
+211,Punjab,Rawalpindi,Attock
+214,Punjab,Rawalpindi,Chakwal
+213,Punjab,Rawalpindi,Jhelum
+212,Punjab,Rawalpindi,Rawalpindi
+261,Punjab,Sahiwal,Okara
+263,Punjab,Sahiwal,Pakpattan
+262,Punjab,Sahiwal,Sahiwal
+222,Punjab,Sargodha,Bhakkar
+223,Punjab,Sargodha,Khushab
+224,Punjab,Sargodha,Mianwali
+221,Punjab,Sargodha,Sargodha
+337,Sindh,Hyderabad,Badin
+331,Sindh,Hyderabad,Dadu
+333,Sindh,Hyderabad,Hyderabad
+332,Sindh,Hyderabad,Jamshoro
+336,Sindh,Hyderabad,Matiari
+339,Sindh,Hyderabad,Sujawal
+334,Sindh,Hyderabad,Tando Allahyar
+335,Sindh,Hyderabad,Tando Muhammad Khan
+338,Sindh,Hyderabad,Thatta
+355,Sindh,Karachi,Karachi Central
+354,Sindh,Karachi,Karachi East
+353,Sindh,Karachi,Karachi South
+351,Sindh,Karachi,Karachi West
+357,Sindh,Karachi,Keamari
+356,Sindh,Karachi,Korangi
+352,Sindh,Karachi,Malir
+311,Sindh,Larkana,Jacobabad
+315,Sindh,Larkana,Kambar Shahdad Kot
+312,Sindh,Larkana,Kashmore
+314,Sindh,Larkana,Larkana
+313,Sindh,Larkana,Shikarpur
+341,Sindh,Mirpur Khas,Mirpur Khas
+343,Sindh,Mirpur Khas,Tharparkar
+342,Sindh,Mirpur Khas,Umer Kot
+361,Sindh,Shaheed Benazirabad,Naushahro Feroze
+363,Sindh,Shaheed Benazirabad,Sanghar
+362,Sindh,Shaheed Benazirabad,Shaheed Benazirabad
+322,Sindh,Sukkur,Ghotki
+323,Sindh,Sukkur,Khairpur
+321,Sindh,Sukkur,Sukkur
+830,Azad Jammu & Kashmir,Mirpur,NA
+810,Azad Jammu & Kashmir,Muzaffarabad,NA
+820,Azad Jammu & Kashmir,Poonch,NA
+450,Balochistan,Kalat,NA
+480,Balochistan,Loralai,NA
+460,Balochistan,Mekran,NA
+440,Balochistan,Nasirabad,NA
+410,Balochistan,Quetta,NA
+470,Balochistan,Rakhshan,NA
+430,Balochistan,Sibi,NA
+420,Balochistan,Zhob,NA
+720,Gilgit-Baltistan,Baltistan,NA
+730,Gilgit-Baltistan,Diamer-Astore,NA
+710,Gilgit-Baltistan,Gilgit,NA
+610,Islamabad ICT,Islamabad,NA
+160,Khyber Pakhtunkhwa,Bannu,NA
+170,Khyber Pakhtunkhwa,Dera Ismail Khan,NA
+120,Khyber Pakhtunkhwa,Hazara,NA
+150,Khyber Pakhtunkhwa,Kohat,NA
+110,Khyber Pakhtunkhwa,Malakand,NA
+130,Khyber Pakhtunkhwa,Mardan,NA
+140,Khyber Pakhtunkhwa,Peshawar,NA
+290,Punjab,Bahawalpur,NA
+280,Punjab,Dera Ghazi Khan,NA
+230,Punjab,Faisalabad,NA
+240,Punjab,Gujranwala,NA
+250,Punjab,Lahore,NA
+270,Punjab,Multan,NA
+210,Punjab,Rawalpindi,NA
+260,Punjab,Sahiwal,NA
+220,Punjab,Sargodha,NA
+330,Sindh,Hyderabad,NA
+350,Sindh,Karachi,NA
+310,Sindh,Larkana,NA
+340,Sindh,Mirpur Khas,NA
+360,Sindh,Shaheed Benazirabad,NA
+320,Sindh,Sukkur,NA

@@ -1,0 +1,649 @@
+survey,level,province,division,district,domain,indicator,unit,type,denom_pop,num_pop,value,n_obs
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Population (extrapolated),persons,pct,220579436,220579436,100,225900
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Households (extrapolated),households,pct,37113254,37113254,100,37694
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Average household size,persons,mean,37113254,NA,5.94,37694
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Female population share,% of population,pct,220579436,108794681,49.32,225900
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,108794681,111784755,102.75,111413
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Population under 15 years,% of population,pct,220579436,83716099,37.95,225900
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Population 65 years and above,% of population,pct,220579436,9332233,4.23,225900
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,127531104,93048332,72.96,130265
+PDS 2020,National,Pakistan (survey domain),NA,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,163801383,95141611,58.08,167534
+PDS 2020,National,Pakistan (survey domain),NA,NA,Education,Ever attended school (10+),% of population 10+,pct,163801383,101710688,62.09,167534
+PDS 2020,National,Pakistan (survey domain),NA,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,53035882,35525829,66.98,54119
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Population (extrapolated),persons,pct,13097587,13097587,100,23040
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Population (extrapolated),persons,pct,1880946,1880946,100,1857
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Population (extrapolated),persons,pct,36948897,36948897,100,44843
+PDS 2020,Province,Punjab,NA,NA,Demographics,Population (extrapolated),persons,pct,116555648,116555648,100,108346
+PDS 2020,Province,Sindh,NA,NA,Demographics,Population (extrapolated),persons,pct,52096358,52096358,100,47814
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Households (extrapolated),households,pct,1974248,1974248,100,3501
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Households (extrapolated),households,pct,354442,354442,100,342
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Households (extrapolated),households,pct,5552198,5552198,100,6746
+PDS 2020,Province,Punjab,NA,NA,Demographics,Households (extrapolated),households,pct,20130409,20130409,100,18683
+PDS 2020,Province,Sindh,NA,NA,Demographics,Households (extrapolated),households,pct,9101957,9101957,100,8422
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Average household size,persons,mean,1974248,NA,6.63,3501
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Average household size,persons,mean,354442,NA,5.31,342
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Average household size,persons,mean,5552198,NA,6.65,6746
+PDS 2020,Province,Punjab,NA,NA,Demographics,Average household size,persons,mean,20130409,NA,5.79,18683
+PDS 2020,Province,Sindh,NA,NA,Demographics,Average household size,persons,mean,9101957,NA,5.72,8422
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Female population share,% of population,pct,13097587,6168882,47.1,23040
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Female population share,% of population,pct,1880946,899588,47.83,1857
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Female population share,% of population,pct,36948897,18513658,50.11,44843
+PDS 2020,Province,Punjab,NA,NA,Demographics,Female population share,% of population,pct,116555648,58080140,49.83,108346
+PDS 2020,Province,Sindh,NA,NA,Demographics,Female population share,% of population,pct,52096358,25132413,48.24,47814
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,6168882,6928705,112.32,10954
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,899588,981358,109.09,892
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,18513658,18435239,99.58,22378
+PDS 2020,Province,Punjab,NA,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,58080140,58475508,100.68,54094
+PDS 2020,Province,Sindh,NA,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,25132413,26963945,107.29,23095
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Population under 15 years,% of population,pct,13097587,5440752,41.54,23040
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Population under 15 years,% of population,pct,1880946,605367,32.18,1857
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Population under 15 years,% of population,pct,36948897,15112579,40.9,44843
+PDS 2020,Province,Punjab,NA,NA,Demographics,Population under 15 years,% of population,pct,116555648,42641885,36.59,108346
+PDS 2020,Province,Sindh,NA,NA,Demographics,Population under 15 years,% of population,pct,52096358,19915516,38.23,47814
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Population 65 years and above,% of population,pct,13097587,336893,2.57,23040
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Population 65 years and above,% of population,pct,1880946,110724,5.89,1857
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Population 65 years and above,% of population,pct,36948897,1451805,3.93,44843
+PDS 2020,Province,Punjab,NA,NA,Demographics,Population 65 years and above,% of population,pct,116555648,5402842,4.64,108346
+PDS 2020,Province,Sindh,NA,NA,Demographics,Population 65 years and above,% of population,pct,52096358,2029970,3.9,47814
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,7319942,5777645,78.93,12870
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,1164856,716090,61.47,1150
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,20384512,16564385,81.26,24905
+PDS 2020,Province,Punjab,NA,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,68510922,48044727,70.13,63507
+PDS 2020,Province,Sindh,NA,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,30150872,21945486,72.79,27833
+PDS 2020,Province,Balochistan,NA,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,9420648,3099705,32.9,16609
+PDS 2020,Province,Islamabad ICT,NA,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1459031,1208564,82.83,1446
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,26869713,13871926,51.63,32729
+PDS 2020,Province,Punjab,NA,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,87481253,57327191,65.53,81194
+PDS 2020,Province,Sindh,NA,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,38570738,19634225,50.9,35556
+PDS 2020,Province,Balochistan,NA,NA,Education,Ever attended school (10+),% of population 10+,pct,9420648,3280914,34.83,16609
+PDS 2020,Province,Islamabad ICT,NA,NA,Education,Ever attended school (10+),% of population 10+,pct,1459031,1270168,87.06,1446
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Education,Ever attended school (10+),% of population 10+,pct,26869713,15412201,57.36,32729
+PDS 2020,Province,Punjab,NA,NA,Education,Ever attended school (10+),% of population 10+,pct,87481253,60532341,69.19,81194
+PDS 2020,Province,Sindh,NA,NA,Education,Ever attended school (10+),% of population 10+,pct,38570738,21215064,55,35556
+PDS 2020,Province,Balochistan,NA,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2858243,1879421,65.75,5061
+PDS 2020,Province,Islamabad ICT,NA,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,447073,312449,69.89,440
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,8792170,5935216,67.51,10670
+PDS 2020,Province,Punjab,NA,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,28760404,19096310,66.4,26721
+PDS 2020,Province,Sindh,NA,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,12177992,8302434,68.18,11227
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Population (extrapolated),persons,pct,2422705,2422705,100,5797
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Population (extrapolated),persons,pct,1347056,1347056,100,2123
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Population (extrapolated),persons,pct,1633692,1633692,100,3163
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Population (extrapolated),persons,pct,4307275,4307275,100,5241
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Population (extrapolated),persons,pct,372180,372180,100,741
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Population (extrapolated),persons,pct,1351618,1351618,100,2474
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Population (extrapolated),persons,pct,1663060,1663060,100,3501
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Population (extrapolated),persons,pct,1880946,1880946,100,1857
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Population (extrapolated),persons,pct,2477810,2477810,100,3546
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Population (extrapolated),persons,pct,1818579,1818579,100,2513
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Population (extrapolated),persons,pct,5169345,5169345,100,7947
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Population (extrapolated),persons,pct,3186537,3186537,100,3994
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Population (extrapolated),persons,pct,9022755,9022755,100,10343
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Population (extrapolated),persons,pct,4664988,4664988,100,4507
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Population (extrapolated),persons,pct,10608883,10608883,100,11993
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Population (extrapolated),persons,pct,13303774,13303774,100,12007
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Population (extrapolated),persons,pct,11501286,11501286,100,10811
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Population (extrapolated),persons,pct,15537341,15537341,100,13675
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Population (extrapolated),persons,pct,17084659,17084659,100,16841
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Population (extrapolated),persons,pct,19080415,19080415,100,17039
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Population (extrapolated),persons,pct,13174874,13174874,100,11627
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Population (extrapolated),persons,pct,10126748,10126748,100,10124
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Population (extrapolated),persons,pct,7827642,7827642,100,7691
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Population (extrapolated),persons,pct,8918910,8918910,100,8531
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Population (extrapolated),persons,pct,10248045,10248045,100,11080
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Population (extrapolated),persons,pct,15272788,15272788,100,15262
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Population (extrapolated),persons,pct,8844767,8844767,100,7509
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Population (extrapolated),persons,pct,4365963,4365963,100,3407
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Population (extrapolated),persons,pct,4939536,4939536,100,4540
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Population (extrapolated),persons,pct,8425259,8425259,100,6016
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Households (extrapolated),households,pct,426294,426294,100,1011
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Households (extrapolated),households,pct,247248,247248,100,383
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Households (extrapolated),households,pct,249274,249274,100,475
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Households (extrapolated),households,pct,588956,588956,100,728
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Households (extrapolated),households,pct,59705,59705,100,113
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Households (extrapolated),households,pct,197867,197867,100,364
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Households (extrapolated),households,pct,204903,204903,100,427
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Households (extrapolated),households,pct,354442,354442,100,342
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Households (extrapolated),households,pct,332607,332607,100,475
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Households (extrapolated),households,pct,341222,341222,100,478
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Households (extrapolated),households,pct,889154,889154,100,1335
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Households (extrapolated),households,pct,442407,442407,100,564
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Households (extrapolated),households,pct,1282334,1282334,100,1482
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Households (extrapolated),households,pct,722043,722043,100,688
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Households (extrapolated),households,pct,1542432,1542432,100,1724
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Households (extrapolated),households,pct,2250589,2250589,100,2014
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Households (extrapolated),households,pct,1980861,1980861,100,1849
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Households (extrapolated),households,pct,2695921,2695921,100,2364
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Households (extrapolated),households,pct,2828174,2828174,100,2789
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Households (extrapolated),households,pct,3229542,3229542,100,2882
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Households (extrapolated),households,pct,2293397,2293397,100,2022
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Households (extrapolated),households,pct,1886402,1886402,100,1902
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Households (extrapolated),households,pct,1355677,1355677,100,1332
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Households (extrapolated),households,pct,1609846,1609846,100,1529
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Households (extrapolated),households,pct,1853066,1853066,100,2024
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Households (extrapolated),households,pct,2860488,2860488,100,2849
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Households (extrapolated),households,pct,1363555,1363555,100,1166
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Households (extrapolated),households,pct,842047,842047,100,653
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Households (extrapolated),households,pct,858085,858085,100,795
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Households (extrapolated),households,pct,1324716,1324716,100,935
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Average household size,persons,mean,426294,NA,5.68,1011
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Average household size,persons,mean,247248,NA,5.45,383
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Average household size,persons,mean,249274,NA,6.55,475
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Average household size,persons,mean,588956,NA,7.31,728
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Average household size,persons,mean,59705,NA,6.23,113
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Average household size,persons,mean,197867,NA,6.83,364
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Average household size,persons,mean,204903,NA,8.12,427
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Average household size,persons,mean,354442,NA,5.31,342
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Average household size,persons,mean,332607,NA,7.45,475
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Average household size,persons,mean,341222,NA,5.33,478
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Average household size,persons,mean,889154,NA,5.81,1335
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Average household size,persons,mean,442407,NA,7.2,564
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Average household size,persons,mean,1282334,NA,7.04,1482
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Average household size,persons,mean,722043,NA,6.46,688
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Average household size,persons,mean,1542432,NA,6.88,1724
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Average household size,persons,mean,2250589,NA,5.91,2014
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Average household size,persons,mean,1980861,NA,5.81,1849
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Average household size,persons,mean,2695921,NA,5.76,2364
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Average household size,persons,mean,2828174,NA,6.04,2789
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Average household size,persons,mean,3229542,NA,5.91,2882
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Average household size,persons,mean,2293397,NA,5.74,2022
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Average household size,persons,mean,1886402,NA,5.37,1902
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Average household size,persons,mean,1355677,NA,5.77,1332
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Average household size,persons,mean,1609846,NA,5.54,1529
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Average household size,persons,mean,1853066,NA,5.53,2024
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Average household size,persons,mean,2860488,NA,5.34,2849
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Average household size,persons,mean,1363555,NA,6.49,1166
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Average household size,persons,mean,842047,NA,5.18,653
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Average household size,persons,mean,858085,NA,5.76,795
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Average household size,persons,mean,1324716,NA,6.36,935
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Female population share,% of population,pct,2422705,1145860,47.3,5797
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Female population share,% of population,pct,1347056,670460,49.77,2123
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Female population share,% of population,pct,1633692,804053,49.22,3163
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Female population share,% of population,pct,4307275,1957155,45.44,5241
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Female population share,% of population,pct,372180,178037,47.84,741
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Female population share,% of population,pct,1351618,628083,46.47,2474
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Female population share,% of population,pct,1663060,785234,47.22,3501
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Female population share,% of population,pct,1880946,899588,47.83,1857
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Female population share,% of population,pct,2477810,1214396,49.01,3546
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Female population share,% of population,pct,1818579,879614,48.37,2513
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Female population share,% of population,pct,5169345,2669029,51.63,7947
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Female population share,% of population,pct,3186537,1616421,50.73,3994
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Female population share,% of population,pct,9022755,4549751,50.43,10343
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Female population share,% of population,pct,4664988,2313837,49.6,4507
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Female population share,% of population,pct,10608883,5270611,49.68,11993
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Female population share,% of population,pct,13303774,6616688,49.74,12007
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Female population share,% of population,pct,11501286,5617792,48.84,10811
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Female population share,% of population,pct,15537341,7737176,49.8,13675
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Female population share,% of population,pct,17084659,8625355,50.49,16841
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Female population share,% of population,pct,19080415,9422950,49.39,17039
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Female population share,% of population,pct,13174874,6571260,49.88,11627
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Female population share,% of population,pct,10126748,5095393,50.32,10124
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Female population share,% of population,pct,7827642,3887666,49.67,7691
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Female population share,% of population,pct,8918910,4505862,50.52,8531
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Female population share,% of population,pct,10248045,4973415,48.53,11080
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Female population share,% of population,pct,15272788,7334499,48.02,15262
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Female population share,% of population,pct,8844767,4306199,48.69,7509
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Female population share,% of population,pct,4365963,2035010,46.61,3407
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Female population share,% of population,pct,4939536,2428586,49.17,4540
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Female population share,% of population,pct,8425259,4054703,48.13,6016
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,1145860,1276845,111.43,2754
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,670460,676597,100.92,1052
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,804053,829639,103.18,1551
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,1957155,2350120,120.08,2437
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,178037,194143,109.05,356
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,628083,723535,115.2,1149
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,785234,877826,111.79,1655
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,899588,981358,109.09,892
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,1214396,1263414,104.04,1745
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,879614,938965,106.75,1220
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,2669029,2500316,93.68,4050
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,1616421,1570116,97.14,2020
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,4549751,4473004,98.31,5175
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,2313837,2351151,101.61,2230
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,5270611,5338273,101.28,5938
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,6616688,6687086,101.06,5994
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,5617792,5883494,104.73,5303
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,7737176,7800166,100.81,6830
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,8625355,8459304,98.07,8513
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,9422950,9657465,102.49,8422
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,6571260,6603614,100.49,5785
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,5095393,5031354,98.74,5110
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,3887666,3939976,101.35,3818
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,4505862,4413048,97.94,4319
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,4973415,5274630,106.06,5371
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,7334499,7938289,108.23,7352
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,4306199,4538567,105.4,3664
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,2035010,2330953,114.54,1600
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,2428586,2510950,103.39,2213
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Sex ratio (males per 100 females),males per 100 females,ratio,4054703,4370556,107.79,2895
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Population under 15 years,% of population,pct,2422705,971307,40.09,5797
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Population under 15 years,% of population,pct,1347056,467359,34.69,2123
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Population under 15 years,% of population,pct,1633692,716331,43.85,3163
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Population under 15 years,% of population,pct,4307275,1795128,41.68,5241
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Population under 15 years,% of population,pct,372180,137525,36.95,741
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Population under 15 years,% of population,pct,1351618,598365,44.27,2474
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Population under 15 years,% of population,pct,1663060,754738,45.38,3501
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Population under 15 years,% of population,pct,1880946,605367,32.18,1857
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Population under 15 years,% of population,pct,2477810,1012882,40.88,3546
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Population under 15 years,% of population,pct,1818579,720553,39.62,2513
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Population under 15 years,% of population,pct,5169345,1910209,36.95,7947
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Population under 15 years,% of population,pct,3186537,1222598,38.37,3994
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Population under 15 years,% of population,pct,9022755,3949334,43.77,10343
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Population under 15 years,% of population,pct,4664988,1805848,38.71,4507
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Population under 15 years,% of population,pct,10608883,4491154,42.33,11993
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Population under 15 years,% of population,pct,13303774,5418991,40.73,12007
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Population under 15 years,% of population,pct,11501286,4811180,41.83,10811
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Population under 15 years,% of population,pct,15537341,5395934,34.73,13675
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Population under 15 years,% of population,pct,17084659,6133569,35.9,16841
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Population under 15 years,% of population,pct,19080415,6802135,35.65,17039
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Population under 15 years,% of population,pct,13174874,4879351,37.04,11627
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Population under 15 years,% of population,pct,10126748,3026533,29.89,10124
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Population under 15 years,% of population,pct,7827642,2920647,37.31,7691
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Population under 15 years,% of population,pct,8918910,3253547,36.48,8531
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Population under 15 years,% of population,pct,10248045,3984253,38.88,11080
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Population under 15 years,% of population,pct,15272788,4754713,31.13,15262
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Population under 15 years,% of population,pct,8844767,3743713,42.33,7509
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Population under 15 years,% of population,pct,4365963,1754257,40.18,3407
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Population under 15 years,% of population,pct,4939536,2031349,41.12,4540
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Population under 15 years,% of population,pct,8425259,3647230,43.29,6016
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Population 65 years and above,% of population,pct,2422705,57696,2.38,5797
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Population 65 years and above,% of population,pct,1347056,35722,2.65,2123
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Population 65 years and above,% of population,pct,1633692,54020,3.31,3163
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Population 65 years and above,% of population,pct,4307275,97059,2.25,5241
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Population 65 years and above,% of population,pct,372180,5968,1.6,741
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Population 65 years and above,% of population,pct,1351618,40154,2.97,2474
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Population 65 years and above,% of population,pct,1663060,46274,2.78,3501
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Population 65 years and above,% of population,pct,1880946,110724,5.89,1857
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Population 65 years and above,% of population,pct,2477810,91588,3.7,3546
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Population 65 years and above,% of population,pct,1818579,42439,2.33,2513
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Population 65 years and above,% of population,pct,5169345,238196,4.61,7947
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Population 65 years and above,% of population,pct,3186537,127543,4,3994
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Population 65 years and above,% of population,pct,9022755,385582,4.27,10343
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Population 65 years and above,% of population,pct,4664988,235399,5.05,4507
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Population 65 years and above,% of population,pct,10608883,331058,3.12,11993
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Population 65 years and above,% of population,pct,13303774,548758,4.12,12007
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Population 65 years and above,% of population,pct,11501286,495394,4.31,10811
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Population 65 years and above,% of population,pct,15537341,678488,4.37,13675
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Population 65 years and above,% of population,pct,17084659,805561,4.72,16841
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Population 65 years and above,% of population,pct,19080415,819581,4.3,17039
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Population 65 years and above,% of population,pct,13174874,585482,4.44,11627
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Population 65 years and above,% of population,pct,10126748,602933,5.95,10124
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Population 65 years and above,% of population,pct,7827642,391674,5,7691
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Population 65 years and above,% of population,pct,8918910,474971,5.33,8531
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Population 65 years and above,% of population,pct,10248045,375067,3.66,11080
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Population 65 years and above,% of population,pct,15272788,676016,4.43,15262
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Population 65 years and above,% of population,pct,8844767,342290,3.87,7509
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Population 65 years and above,% of population,pct,4365963,134929,3.09,3407
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Population 65 years and above,% of population,pct,4939536,235845,4.77,4540
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Population 65 years and above,% of population,pct,8425259,265823,3.16,6016
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,1393702,1029003,73.83,3288
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,843975,503081,59.61,1340
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,863341,770351,89.23,1658
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,2415089,1892187,78.35,3020
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,228688,143493,62.75,460
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,713100,638519,89.54,1305
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,862048,801012,92.92,1799
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,1164856,716090,61.47,1150
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,1373340,1104471,80.42,1968
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,1055588,762991,72.28,1482
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,3020939,2148406,71.12,4520
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,1836395,1350141,73.52,2296
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,4687839,4334916,92.47,5440
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,2623741,2041247,77.8,2559
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,5786671,4822212,83.33,6640
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,7336025,5967749,81.35,6558
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,6194711,5306574,85.66,5748
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,9462920,6074422,64.19,8290
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,10145530,6939129,68.4,10006
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,11458699,7621716,66.51,10199
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,7710041,5464833,70.88,6796
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,6497282,3629466,55.86,6501
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,4515321,3312320,73.36,4443
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,5190392,3728517,71.83,4966
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,5888725,4359320,74.03,6382
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,9842058,5430730,55.18,9828
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,4758764,4086003,85.86,4015
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,2476777,1889186,76.28,1905
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,2672341,2267194,84.84,2508
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Age dependency ratio,dependents per 100 aged 15-64,ratio,4512206,3913053,86.72,3195
+PDS 2020,Division,Balochistan,Kalat,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1749751,395350,22.59,4177
+PDS 2020,Division,Balochistan,Mekran,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1052460,286958,27.27,1669
+PDS 2020,Division,Balochistan,Nasirabad,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1135180,429423,37.83,2190
+PDS 2020,Division,Balochistan,Quetta,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,3119037,1166707,37.41,3889
+PDS 2020,Division,Balochistan,Rakhshan,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,271434,100333,36.96,551
+PDS 2020,Division,Balochistan,Sibi,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,934331,321052,34.36,1715
+PDS 2020,Division,Balochistan,Zhob,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1158455,399881,34.52,2418
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1459031,1208564,82.83,1446
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1817111,932635,51.33,2624
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,1364596,528344,38.72,1910
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,3916776,2521547,64.38,5916
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,2374937,1387593,58.43,2975
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,6350509,2897537,45.63,7315
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,3429572,2036150,59.37,3317
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,7616212,3568120,46.85,8672
+PDS 2020,Division,Punjab,Bahawalpur,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,9574466,5207614,54.39,8576
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,8171464,4156330,50.86,7614
+PDS 2020,Division,Punjab,Faisalabad,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,11892660,8063399,67.8,10450
+PDS 2020,Division,Punjab,Gujranwala,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,12950562,9674704,74.7,12785
+PDS 2020,Division,Punjab,Lahore,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,14464565,10572387,73.09,12893
+PDS 2020,Division,Punjab,Multan,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,9814067,5905347,60.17,8644
+PDS 2020,Division,Punjab,Rawalpindi,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,8118295,6363326,78.38,8129
+PDS 2020,Division,Punjab,Sahiwal,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,5802863,3433959,59.18,5707
+PDS 2020,Division,Punjab,Sargodha,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,6692312,3950125,59.02,6396
+PDS 2020,Division,Sindh,Hyderabad,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,7612324,3045966,40.01,8220
+PDS 2020,Division,Sindh,Karachi,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,12123110,8685791,71.65,12110
+PDS 2020,Division,Sindh,Larkana,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,6198990,2413072,38.93,5241
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,3212598,1068823,33.27,2492
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,3590981,1566796,43.63,3338
+PDS 2020,Division,Sindh,Sukkur,NA,Education,Literacy rate (10 years and older),% of population 10+,pct,5832735,2853776,48.93,4155
+PDS 2020,Division,Balochistan,Kalat,NA,Education,Ever attended school (10+),% of population 10+,pct,1749751,424478,24.26,4177
+PDS 2020,Division,Balochistan,Mekran,NA,Education,Ever attended school (10+),% of population 10+,pct,1052460,318080,30.22,1669
+PDS 2020,Division,Balochistan,Nasirabad,NA,Education,Ever attended school (10+),% of population 10+,pct,1135180,454108,40,2190
+PDS 2020,Division,Balochistan,Quetta,NA,Education,Ever attended school (10+),% of population 10+,pct,3119037,1219033,39.08,3889
+PDS 2020,Division,Balochistan,Rakhshan,NA,Education,Ever attended school (10+),% of population 10+,pct,271434,108164,39.85,551
+PDS 2020,Division,Balochistan,Sibi,NA,Education,Ever attended school (10+),% of population 10+,pct,934331,334732,35.83,1715
+PDS 2020,Division,Balochistan,Zhob,NA,Education,Ever attended school (10+),% of population 10+,pct,1158455,422318,36.46,2418
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Education,Ever attended school (10+),% of population 10+,pct,1459031,1270168,87.06,1446
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Education,Ever attended school (10+),% of population 10+,pct,1817111,1034970,56.96,2624
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Education,Ever attended school (10+),% of population 10+,pct,1364596,552251,40.47,1910
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Education,Ever attended school (10+),% of population 10+,pct,3916776,2672663,68.24,5916
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Education,Ever attended school (10+),% of population 10+,pct,2374937,1521286,64.06,2975
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Education,Ever attended school (10+),% of population 10+,pct,6350509,3225332,50.79,7315
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Education,Ever attended school (10+),% of population 10+,pct,3429572,2228178,64.97,3317
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Education,Ever attended school (10+),% of population 10+,pct,7616212,4177520,54.85,8672
+PDS 2020,Division,Punjab,Bahawalpur,NA,Education,Ever attended school (10+),% of population 10+,pct,9574466,5547877,57.94,8576
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Education,Ever attended school (10+),% of population 10+,pct,8171464,4572992,55.96,7614
+PDS 2020,Division,Punjab,Faisalabad,NA,Education,Ever attended school (10+),% of population 10+,pct,11892660,8328435,70.03,10450
+PDS 2020,Division,Punjab,Gujranwala,NA,Education,Ever attended school (10+),% of population 10+,pct,12950562,10177055,78.58,12785
+PDS 2020,Division,Punjab,Lahore,NA,Education,Ever attended school (10+),% of population 10+,pct,14464565,11127347,76.93,12893
+PDS 2020,Division,Punjab,Multan,NA,Education,Ever attended school (10+),% of population 10+,pct,9814067,6172955,62.9,8644
+PDS 2020,Division,Punjab,Rawalpindi,NA,Education,Ever attended school (10+),% of population 10+,pct,8118295,6526407,80.39,8129
+PDS 2020,Division,Punjab,Sahiwal,NA,Education,Ever attended school (10+),% of population 10+,pct,5802863,3693201,63.64,5707
+PDS 2020,Division,Punjab,Sargodha,NA,Education,Ever attended school (10+),% of population 10+,pct,6692312,4386072,65.54,6396
+PDS 2020,Division,Sindh,Hyderabad,NA,Education,Ever attended school (10+),% of population 10+,pct,7612324,3298904,43.34,8220
+PDS 2020,Division,Sindh,Karachi,NA,Education,Ever attended school (10+),% of population 10+,pct,12123110,9049206,74.64,12110
+PDS 2020,Division,Sindh,Larkana,NA,Education,Ever attended school (10+),% of population 10+,pct,6198990,2824722,45.57,5241
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Education,Ever attended school (10+),% of population 10+,pct,3212598,1187426,36.96,2492
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Education,Ever attended school (10+),% of population 10+,pct,3590981,1870601,52.09,3338
+PDS 2020,Division,Sindh,Sukkur,NA,Education,Ever attended school (10+),% of population 10+,pct,5832735,2984206,51.16,4155
+PDS 2020,Division,Balochistan,Kalat,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,529970,366607,69.18,1247
+PDS 2020,Division,Balochistan,Mekran,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,357316,216590,60.62,565
+PDS 2020,Division,Balochistan,Nasirabad,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,349598,252469,72.22,676
+PDS 2020,Division,Balochistan,Quetta,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,913240,578152,63.31,1170
+PDS 2020,Division,Balochistan,Rakhshan,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,91530,61955,67.69,181
+PDS 2020,Division,Balochistan,Sibi,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,279380,192430,68.88,514
+PDS 2020,Division,Balochistan,Zhob,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,337209,211218,62.64,708
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,447073,312449,69.89,440
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,566402,359048,63.39,807
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,408574,282962,69.26,577
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,1351980,884598,65.43,2001
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,798286,528965,66.26,993
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2048325,1456111,71.09,2348
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,1145419,780983,68.18,1116
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2473184,1642550,66.41,2828
+PDS 2020,Division,Punjab,Bahawalpur,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,3174674,2213307,69.72,2841
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2619862,1861178,71.04,2445
+PDS 2020,Division,Punjab,Faisalabad,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,3898648,2544280,65.26,3430
+PDS 2020,Division,Punjab,Gujranwala,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,4333834,2772246,63.97,4276
+PDS 2020,Division,Punjab,Lahore,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,4732379,3079028,65.06,4219
+PDS 2020,Division,Punjab,Multan,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,3241567,2238536,69.06,2857
+PDS 2020,Division,Punjab,Rawalpindi,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2670117,1660702,62.2,2682
+PDS 2020,Division,Punjab,Sahiwal,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,1837478,1248521,67.95,1803
+PDS 2020,Division,Punjab,Sargodha,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2251845,1478512,65.66,2168
+PDS 2020,Division,Sindh,Hyderabad,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,2390602,1624938,67.97,2593
+PDS 2020,Division,Sindh,Karachi,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,3937902,2561856,65.06,3943
+PDS 2020,Division,Sindh,Larkana,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,1931094,1357866,70.32,1630
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,938523,663011,70.64,716
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,1088138,734765,67.52,1012
+PDS 2020,Division,Sindh,Sukkur,NA,Demographics,Ever-married women among women 15-49,% of women 15-49,pct,1891733,1359998,71.89,1333
+PDS 2020,National,Pakistan (survey domain),NA,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,17811022,13448245,75.51,18256
+PDS 2020,National,Pakistan (survey domain),NA,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,17811022,13419458,75.34,18256
+PDS 2020,National,Pakistan (survey domain),NA,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,17811022,993049,55.8,18256
+PDS 2020,Province,Balochistan,NA,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1132106,401513,35.47,1937
+PDS 2020,Province,Islamabad ICT,NA,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,135015,115805,85.77,133
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,2986520,2281418,76.39,3610
+PDS 2020,Province,Punjab,NA,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,9227331,7354035,79.7,8662
+PDS 2020,Province,Sindh,NA,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,4330051,3295474,76.11,3914
+PDS 2020,Province,Balochistan,NA,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1132106,393124,34.73,1937
+PDS 2020,Province,Islamabad ICT,NA,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,135015,116556,86.33,133
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,2986520,2321820,77.74,3610
+PDS 2020,Province,Punjab,NA,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,9227331,7359654,79.76,8662
+PDS 2020,Province,Sindh,NA,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,4330051,3228304,74.56,3914
+PDS 2020,Province,Balochistan,NA,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1132106,64035,56.6,1937
+PDS 2020,Province,Islamabad ICT,NA,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,135015,7270,53.8,133
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,2986520,158946,53.2,3610
+PDS 2020,Province,Punjab,NA,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,9227331,510911,55.4,8662
+PDS 2020,Province,Sindh,NA,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,4330051,251887,58.2,3914
+PDS 2020,Division,Balochistan,Kalat,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,207838,51889,24.97,492
+PDS 2020,Division,Balochistan,Mekran,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,98138,19782,20.16,146
+PDS 2020,Division,Balochistan,Nasirabad,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,167248,81878,48.96,322
+PDS 2020,Division,Balochistan,Quetta,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,375105,160892,42.89,425
+PDS 2020,Division,Balochistan,Rakhshan,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,26834,5875,21.89,48
+PDS 2020,Division,Balochistan,Sibi,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,115319,41531,36.01,212
+PDS 2020,Division,Balochistan,Zhob,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,141624,39667,28.01,292
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,135015,115805,85.77,133
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,206393,121117,58.68,297
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,112758,86279,76.52,153
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,410993,303754,73.91,644
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,229330,178201,77.71,294
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,757722,594011,78.39,868
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,387175,293918,75.91,376
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,882148,704138,79.82,978
+PDS 2020,Division,Punjab,Bahawalpur,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1124201,832718,74.07,1043
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1108964,642635,57.95,1075
+PDS 2020,Division,Punjab,Faisalabad,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1191592,1000348,83.95,1057
+PDS 2020,Division,Punjab,Gujranwala,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1261443,1120550,88.83,1233
+PDS 2020,Division,Punjab,Lahore,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1420853,1231387,86.67,1288
+PDS 2020,Division,Punjab,Multan,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1101619,835607,75.85,983
+PDS 2020,Division,Punjab,Rawalpindi,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,625695,562064,89.83,635
+PDS 2020,Division,Punjab,Sahiwal,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,684298,524267,76.61,670
+PDS 2020,Division,Punjab,Sargodha,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,708665,604458,85.3,678
+PDS 2020,Division,Sindh,Hyderabad,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,756889,567614,74.99,829
+PDS 2020,Division,Sindh,Karachi,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,1054357,959022,90.96,1059
+PDS 2020,Division,Sindh,Larkana,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,896115,664231,74.12,780
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,375558,184705,49.18,288
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,391565,276665,70.66,347
+PDS 2020,Division,Sindh,Sukkur,NA,Maternal Health,Institutional delivery (govt/private facility),% of births (last 3 years),pct,855568,643237,75.18,611
+PDS 2020,Division,Balochistan,Kalat,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,207838,51443,24.75,492
+PDS 2020,Division,Balochistan,Mekran,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,98138,18608,18.96,146
+PDS 2020,Division,Balochistan,Nasirabad,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,167248,79175,47.34,322
+PDS 2020,Division,Balochistan,Quetta,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,375105,161001,42.92,425
+PDS 2020,Division,Balochistan,Rakhshan,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,26834,5425,20.22,48
+PDS 2020,Division,Balochistan,Sibi,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,115319,37647,32.65,212
+PDS 2020,Division,Balochistan,Zhob,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,141624,39826,28.12,292
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,135015,116556,86.33,133
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,206393,140457,68.05,297
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,112758,96549,85.63,153
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,410993,306318,74.53,644
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,229330,179794,78.4,294
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,757722,585069,77.21,868
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,387175,309857,80.03,376
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,882148,703775,79.78,978
+PDS 2020,Division,Punjab,Bahawalpur,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1124201,845196,75.18,1043
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1108964,643917,58.06,1075
+PDS 2020,Division,Punjab,Faisalabad,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1191592,998026,83.76,1057
+PDS 2020,Division,Punjab,Gujranwala,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1261443,1130448,89.62,1233
+PDS 2020,Division,Punjab,Lahore,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1420853,1245580,87.66,1288
+PDS 2020,Division,Punjab,Multan,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1101619,834286,75.73,983
+PDS 2020,Division,Punjab,Rawalpindi,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,625695,559138,89.36,635
+PDS 2020,Division,Punjab,Sahiwal,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,684298,520749,76.1,670
+PDS 2020,Division,Punjab,Sargodha,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,708665,582315,82.17,678
+PDS 2020,Division,Sindh,Hyderabad,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,756889,571949,75.57,829
+PDS 2020,Division,Sindh,Karachi,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,1054357,962251,91.26,1059
+PDS 2020,Division,Sindh,Larkana,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,896115,640553,71.48,780
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,375558,181698,48.38,288
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,391565,275808,70.44,347
+PDS 2020,Division,Sindh,Sukkur,NA,Maternal Health,Delivery assisted by doctor/LHV/nurse,% of births (last 3 years),pct,855568,596045,69.67,611
+PDS 2020,Division,Balochistan,Kalat,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,207838,13904,66.9,492
+PDS 2020,Division,Balochistan,Mekran,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,98138,1696,17.3,146
+PDS 2020,Division,Balochistan,Nasirabad,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,167248,11016,65.9,322
+PDS 2020,Division,Balochistan,Quetta,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,375105,22160,59.1,425
+PDS 2020,Division,Balochistan,Rakhshan,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,26834,0,0,48
+PDS 2020,Division,Balochistan,Sibi,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,115319,10857,94.1,212
+PDS 2020,Division,Balochistan,Zhob,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,141624,4401,31.1,292
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,135015,7270,53.8,133
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,206393,10700,51.8,297
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,112758,824,7.3,153
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,410993,37867,92.1,644
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,229330,13829,60.3,294
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,757722,32746,43.2,868
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,387175,12726,32.9,376
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,882148,50254,57,978
+PDS 2020,Division,Punjab,Bahawalpur,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1124201,73355,65.3,1043
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1108964,63927,57.6,1075
+PDS 2020,Division,Punjab,Faisalabad,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1191592,60027,50.4,1057
+PDS 2020,Division,Punjab,Gujranwala,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1261443,40673,32.2,1233
+PDS 2020,Division,Punjab,Lahore,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1420853,54149,38.1,1288
+PDS 2020,Division,Punjab,Multan,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1101619,91149,82.7,983
+PDS 2020,Division,Punjab,Rawalpindi,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,625695,36294,58,635
+PDS 2020,Division,Punjab,Sahiwal,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,684298,56804,83,670
+PDS 2020,Division,Punjab,Sargodha,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,708665,34533,48.7,678
+PDS 2020,Division,Sindh,Hyderabad,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,756889,52103,68.8,829
+PDS 2020,Division,Sindh,Karachi,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,1054357,41750,39.6,1059
+PDS 2020,Division,Sindh,Larkana,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,896115,64370,71.8,780
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,375558,16890,45,288
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,391565,19728,50.4,347
+PDS 2020,Division,Sindh,Sukkur,NA,Vital Statistics,"Infant deaths per 1,000 live births (IMR, births of last 3 years)","per 1,000 live births",pct,855568,57048,66.7,611
+PDS 2020,National,Pakistan (survey domain),NA,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,220579436,5929599,26.9,225900
+PDS 2020,National,Pakistan (survey domain),NA,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,220579436,1471130,6.7,225900
+PDS 2020,Province,Balochistan,NA,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,13097587,360283,27.5,23040
+PDS 2020,Province,Islamabad ICT,NA,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1880946,40270,21.4,1857
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,36948897,999050,27,44843
+PDS 2020,Province,Punjab,NA,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,116555648,3111281,26.7,108346
+PDS 2020,Province,Sindh,NA,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,52096358,1418714,27.2,47814
+PDS 2020,Province,Balochistan,NA,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,13097587,81271,6.2,23040
+PDS 2020,Province,Islamabad ICT,NA,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1880946,15548,8.3,1857
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,36948897,155655,4.2,44843
+PDS 2020,Province,Punjab,NA,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,116555648,870126,7.5,108346
+PDS 2020,Province,Sindh,NA,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,52096358,348529,6.7,47814
+PDS 2020,Division,Balochistan,Kalat,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,2422705,60414,24.9,5797
+PDS 2020,Division,Balochistan,Mekran,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1347056,33534,24.9,2123
+PDS 2020,Division,Balochistan,Nasirabad,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1633692,57667,35.3,3163
+PDS 2020,Division,Balochistan,Quetta,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,4307275,123591,28.7,5241
+PDS 2020,Division,Balochistan,Rakhshan,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,372180,5392,14.5,741
+PDS 2020,Division,Balochistan,Sibi,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1351618,33189,24.6,2474
+PDS 2020,Division,Balochistan,Zhob,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1663060,46497,28,3501
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1880946,40270,21.4,1857
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,2477810,71657,28.9,3546
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,1818579,34942,19.2,2513
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,5169345,154379,29.9,7947
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,3186537,75545,23.7,3994
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,9022755,243925,27,10343
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,4664988,121143,26,4507
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,10608883,297459,28,11993
+PDS 2020,Division,Punjab,Bahawalpur,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,13303774,376973,28.3,12007
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,11501286,367283,31.9,10811
+PDS 2020,Division,Punjab,Faisalabad,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,15537341,391656,25.2,13675
+PDS 2020,Division,Punjab,Gujranwala,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,17084659,462163,27.1,16841
+PDS 2020,Division,Punjab,Lahore,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,19080415,453436,23.8,17039
+PDS 2020,Division,Punjab,Multan,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,13174874,385772,29.3,11627
+PDS 2020,Division,Punjab,Rawalpindi,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,10126748,213476,21.1,10124
+PDS 2020,Division,Punjab,Sahiwal,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,7827642,227629,29.1,7691
+PDS 2020,Division,Punjab,Sargodha,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,8918910,232893,26.1,8531
+PDS 2020,Division,Sindh,Hyderabad,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,10248045,265263,25.9,11080
+PDS 2020,Division,Sindh,Karachi,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,15272788,319086,20.9,15262
+PDS 2020,Division,Sindh,Larkana,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,8844767,293310,33.2,7509
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,4365963,117667,27,3407
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,4939536,138924,28.1,4540
+PDS 2020,Division,Sindh,Sukkur,NA,Vital Statistics,"Crude birth rate (births in 2020 per 1,000 population)","per 1,000 population",ratio,8425259,284465,33.8,6016
+PDS 2020,Division,Balochistan,Kalat,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,2422705,17645,7.3,5797
+PDS 2020,Division,Balochistan,Mekran,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1347056,8574,6.4,2123
+PDS 2020,Division,Balochistan,Nasirabad,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1633692,11834,7.2,3163
+PDS 2020,Division,Balochistan,Quetta,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,4307275,25870,6,5241
+PDS 2020,Division,Balochistan,Rakhshan,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,372180,3623,9.7,741
+PDS 2020,Division,Balochistan,Sibi,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1351618,6989,5.2,2474
+PDS 2020,Division,Balochistan,Zhob,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1663060,6736,4.1,3501
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1880946,15548,8.3,1857
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,2477810,5549,2.2,3546
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,1818579,8567,4.7,2513
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,5169345,39249,7.6,7947
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,3186537,9953,3.1,3994
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,9022755,39227,4.3,10343
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,4664988,13711,2.9,4507
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,10608883,39398,3.7,11993
+PDS 2020,Division,Punjab,Bahawalpur,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,13303774,100932,7.6,12007
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,11501286,67973,5.9,10811
+PDS 2020,Division,Punjab,Faisalabad,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,15537341,144459,9.3,13675
+PDS 2020,Division,Punjab,Gujranwala,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,17084659,116298,6.8,16841
+PDS 2020,Division,Punjab,Lahore,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,19080415,125145,6.6,17039
+PDS 2020,Division,Punjab,Multan,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,13174874,121314,9.2,11627
+PDS 2020,Division,Punjab,Rawalpindi,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,10126748,66786,6.6,10124
+PDS 2020,Division,Punjab,Sahiwal,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,7827642,73275,9.4,7691
+PDS 2020,Division,Punjab,Sargodha,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,8918910,53944,6,8531
+PDS 2020,Division,Sindh,Hyderabad,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,10248045,68292,6.7,11080
+PDS 2020,Division,Sindh,Karachi,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,15272788,100892,6.6,15262
+PDS 2020,Division,Sindh,Larkana,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,8844767,73751,8.3,7509
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,4365963,23637,5.4,3407
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,4939536,29651,6,4540
+PDS 2020,Division,Sindh,Sukkur,NA,Vital Statistics,"Crude death rate (deaths in 2020 per 1,000 population)","per 1,000 population",ratio,8425259,52306,6.2,6016
+PDS 2020,National,Pakistan (survey domain),NA,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,35438806,NA,3.22,36121
+PDS 2020,National,Pakistan (survey domain),NA,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,35438806,NA,20.67,36121
+PDS 2020,Province,Balochistan,NA,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1875429,NA,3.55,3335
+PDS 2020,Province,Islamabad ICT,NA,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,312449,NA,2.72,307
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,5915037,NA,3.39,7159
+PDS 2020,Province,Punjab,NA,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,19048628,NA,3.16,17691
+PDS 2020,Province,Sindh,NA,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,8287264,NA,3.19,7629
+PDS 2020,Province,Balochistan,NA,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1875429,NA,19.96,3335
+PDS 2020,Province,Islamabad ICT,NA,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,312449,NA,21.86,307
+PDS 2020,Province,Khyber Pakhtunkhwa,NA,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,5915037,NA,19.73,7159
+PDS 2020,Province,Punjab,NA,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,19048628,NA,21.1,17691
+PDS 2020,Province,Sindh,NA,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,8287264,NA,20.48,7629
+PDS 2020,Division,Balochistan,Kalat,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,365138,NA,3.33,870
+PDS 2020,Division,Balochistan,Mekran,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,216590,NA,2.96,336
+PDS 2020,Division,Balochistan,Nasirabad,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,252469,NA,3.72,488
+PDS 2020,Division,Balochistan,Quetta,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,576253,NA,3.66,722
+PDS 2020,Division,Balochistan,Rakhshan,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,61955,NA,3.13,118
+PDS 2020,Division,Balochistan,Sibi,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,192430,NA,3.79,353
+PDS 2020,Division,Balochistan,Zhob,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,210593,NA,3.91,448
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,312449,NA,2.72,307
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,359048,NA,3.5,509
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,280907,NA,3.1,384
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,883124,NA,3.08,1339
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,527802,NA,3.13,658
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1448423,NA,3.58,1639
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,775446,NA,3.26,749
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1640285,NA,3.57,1881
+PDS 2020,Division,Punjab,Bahawalpur,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,2212204,NA,3.45,1999
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1855501,NA,3.66,1750
+PDS 2020,Division,Punjab,Faisalabad,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,2531901,NA,2.86,2229
+PDS 2020,Division,Punjab,Gujranwala,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,2764505,NA,3.01,2710
+PDS 2020,Division,Punjab,Lahore,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,3069016,NA,3.19,2736
+PDS 2020,Division,Punjab,Multan,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,2233507,NA,3.22,1974
+PDS 2020,Division,Punjab,Rawalpindi,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1658197,NA,2.69,1666
+PDS 2020,Division,Punjab,Sahiwal,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1248521,NA,3.31,1225
+PDS 2020,Division,Punjab,Sargodha,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1475276,NA,3.09,1402
+PDS 2020,Division,Sindh,Hyderabad,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1623257,NA,3.14,1764
+PDS 2020,Division,Sindh,Karachi,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,2559608,NA,2.72,2564
+PDS 2020,Division,Sindh,Larkana,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1357866,NA,3.66,1158
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,661910,NA,3.05,509
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,725997,NA,3.43,670
+PDS 2020,Division,Sindh,Sukkur,NA,Fertility,Mean children ever born (ever-married women 15-49),children per woman,mean,1358626,NA,3.62,964
+PDS 2020,Division,Balochistan,Kalat,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,365138,NA,20.11,870
+PDS 2020,Division,Balochistan,Mekran,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,216590,NA,20.3,336
+PDS 2020,Division,Balochistan,Nasirabad,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,252469,NA,18.66,488
+PDS 2020,Division,Balochistan,Quetta,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,576253,NA,20.36,722
+PDS 2020,Division,Balochistan,Rakhshan,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,61955,NA,20.42,118
+PDS 2020,Division,Balochistan,Sibi,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,192430,NA,19.45,353
+PDS 2020,Division,Balochistan,Zhob,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,210593,NA,20.18,448
+PDS 2020,Division,Islamabad ICT,Islamabad,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,312449,NA,21.86,307
+PDS 2020,Division,Khyber Pakhtunkhwa,Bannu,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,359048,NA,19.64,509
+PDS 2020,Division,Khyber Pakhtunkhwa,Dera Ismail Khan,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,280907,NA,20.85,384
+PDS 2020,Division,Khyber Pakhtunkhwa,Hazara,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,883124,NA,21.09,1339
+PDS 2020,Division,Khyber Pakhtunkhwa,Kohat,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,527802,NA,20.1,658
+PDS 2020,Division,Khyber Pakhtunkhwa,Malakand,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1448423,NA,18.92,1639
+PDS 2020,Division,Khyber Pakhtunkhwa,Mardan,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,775446,NA,19.66,749
+PDS 2020,Division,Khyber Pakhtunkhwa,Peshawar,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1640285,NA,19.46,1881
+PDS 2020,Division,Punjab,Bahawalpur,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,2212204,NA,20.85,1999
+PDS 2020,Division,Punjab,Dera Ghazi Khan,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1855501,NA,19.41,1750
+PDS 2020,Division,Punjab,Faisalabad,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,2531901,NA,21.57,2229
+PDS 2020,Division,Punjab,Gujranwala,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,2764505,NA,22.04,2710
+PDS 2020,Division,Punjab,Lahore,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,3069016,NA,21.27,2736
+PDS 2020,Division,Punjab,Multan,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,2233507,NA,20.19,1974
+PDS 2020,Division,Punjab,Rawalpindi,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1658197,NA,21.68,1666
+PDS 2020,Division,Punjab,Sahiwal,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1248521,NA,21.13,1225
+PDS 2020,Division,Punjab,Sargodha,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1475276,NA,21.3,1402
+PDS 2020,Division,Sindh,Hyderabad,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1623257,NA,21.08,1764
+PDS 2020,Division,Sindh,Karachi,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,2559608,NA,20.76,2564
+PDS 2020,Division,Sindh,Larkana,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1357866,NA,19.9,1158
+PDS 2020,Division,Sindh,Mirpur Khas,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,661910,NA,21.07,509
+PDS 2020,Division,Sindh,Shaheed Benazirabad,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,725997,NA,20.95,670
+PDS 2020,Division,Sindh,Sukkur,NA,Fertility,Mean age at first marriage (ever-married women 15-49),years,mean,1358626,NA,19.27,964
